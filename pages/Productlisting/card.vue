@@ -69,6 +69,7 @@ const displayedProducts = products.slice(0, 16);
           >
             <div class="relative">
               <span
+                v-if="product.tag"
                 class="absolute p-[6px_9px_6px_9px] rounded-lg bg-[#FFC970] text-[#774900] overflow-hidden top-3 right-3"
                 >{{ product.tag }}</span
               >
@@ -86,7 +87,10 @@ const displayedProducts = products.slice(0, 16);
                   <p class="text-lg font-semibold text-gray-800">
                     {{ product.price }}
                   </p>
-                  <p class="text-[#6E7787] text-sm line-through">
+                  <p
+                    v-if="product.discountPrice"
+                    class="text-[#6E7787] text-sm line-through"
+                  >
                     {{ product.discountPrice }}
                   </p>
                 </div>

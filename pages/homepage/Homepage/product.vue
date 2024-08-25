@@ -1,5 +1,6 @@
 <script setup>
 import { products } from "~/content/data.js";
+import productType from "~/pages/productType.vue";
 </script>
 <template>
   <div class="w-full h-[665px]">
@@ -19,7 +20,8 @@ import { products } from "~/content/data.js";
       </div>
       <div class="w-[1300px] mx-auto px-14 pt-5">
         <div class="grid grid-cols-4 gap-6">
-          <div
+          <NuxtLink
+            to="/productType"
             class="shadow-[3px_4px_4px_0px_#00000040] rounded-lg"
             v-for="(product, index) in products"
             :key="index"
@@ -65,7 +67,7 @@ import { products } from "~/content/data.js";
                 </button>
               </div>
             </div>
-          </div>
+          </NuxtLink>
         </div>
       </div>
     </div>

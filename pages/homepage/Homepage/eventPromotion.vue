@@ -14,11 +14,12 @@
               Pampering
             </h2>
             <p class="text-gray-600">Pariatur ad nisi ex tempor ea</p>
-            <button
+            <NuxtLink
+              to="/EventPromotion/promotion"
               class="text-white w-fit p-[7px_37px_7px_37px] bg-[#459D7A] rounded"
             >
               Explore
-            </button>
+            </NuxtLink>
           </div>
           <img
             class="w-[563px] h-[338px]"
@@ -37,11 +38,12 @@
               Pampering
             </h2>
             <p class="text-gray-600">Pariatur ad nisi ex tempor ea</p>
-            <button
+            <NuxtLink
+              to="/EventPromotion/promotion"
               class="text-white w-fit p-[7px_37px_7px_37px] bg-[#459D7A] rounded"
             >
               Explore
-            </button>
+            </NuxtLink>
           </div>
           <img
             class="w-[563px] h-[338px]"
@@ -53,4 +55,6 @@
     </div>
   </div>
 </template>
-
+<script setup>
+import promotion from "~/pages/EventPromotion/promotion.vue";
+</script>

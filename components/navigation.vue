@@ -7,19 +7,19 @@
         <div class="h-full flex justify-center items-center px-8">
           <ul class="flex gap-[15px]">
             <li>
-              <NuxtLink to="/" class="hover:text-green-500">Home</NuxtLink>
+              <NuxtLink to="/">Home</NuxtLink>
             </li>
             <li>
               <NuxtLink to="/shop">Shop</NuxtLink>
             </li>
             <li>
-              <NuxtLink to="/">Offers</NuxtLink>
+              <NuxtLink to="/offers">Offers</NuxtLink>
             </li>
             <li>
-              <NuxtLink to="/">Our Story</NuxtLink>
+              <NuxtLink to="/ourstory">Our Story</NuxtLink>
             </li>
             <li>
-              <NuxtLink to="/">Blog</NuxtLink>
+              <NuxtLink to="/blog">Blog</NuxtLink>
             </li>
           </ul>
           <div class="relative flex items-center pl-7 gap-3">
@@ -34,11 +34,13 @@
               placeholder="Search product.."
             />
             <div class="flex gap-2.5">
-              <img
-                class="border"
-                src="/assets/icons/shopping_cart.svg"
-                alt=""
-              />
+              <NuxtLink to="/order">
+                <img
+                  class="border"
+                  src="/assets/icons/shopping_cart.svg"
+                  alt=""
+                />
+              </NuxtLink>
               <span class="font-semibold">Cart (0)</span>
             </div>
             <img class="border" src="/assets/icons/user.svg" alt="" />
@@ -48,5 +50,11 @@
     </div>
   </div>
 </template>
-
-<style scoped></style>
+<script setup>
+import shop from "~/pages/shop.vue";
+</script>
+<style scoped>
+.router-link-exact-active {
+  color: rgb(0, 218, 0);
+}
+</style>

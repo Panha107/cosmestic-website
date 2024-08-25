@@ -235,11 +235,202 @@
     </div>
 
     <!-- FAQs -->
-    <div class="w-full h-[554px] border" id="faqs">
+    <div class="w-full h-[510px]" id="faqs">
       <div class="w-[86%] mx-auto py-4">
         <h3 @click="scrollToTop" class="text-4xl font-medium">FAQs</h3>
-        
-           
+        <div class="grid grid-cols-2 gap-[5rem] my-12">
+          <div class="flex flex-col gap-6">
+            <div
+              class="flex item-start p-2 gap-1 rounded-lg border border-green-700"
+            >
+              <div class="p-1">
+                <span class="text-lg text-green-700 font-medium"
+                  >Nisi nisi magna nostrud non consequat conse ?</span
+                >
+                <p class="text-sm text-gray-600">
+                  Ullamco enim ut culpa irure non qui est duis et aute proident
+                  reprehenderit tempor mollit. Aliquip excepteur nisi culpa
+                  reprehenderit adipisicing aliquip excepteur nulla minim.
+                </p>
+              </div>
+              <button class="text-[#15803d]">
+                <svg
+                  data-accordion-icon
+                  class="w-4 h-4 rotate-180 shrink-0"
+                  aria-hidden="true"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 10 6"
+                >
+                  <path
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M9 5 5 1 1 5"
+                  />
+                </svg>
+              </button>
+            </div>
+
+            <div class="flex item-start p-2 gap-1 rounded-lg border">
+              <div class="p-1">
+                <span class="text-base"
+                  >Nostrud eiusmod exercitation duis reprehenderit laboris
+                  ullamco. Magna culpa cillum ?</span
+                >
+              </div>
+              <button class="text-[#9095A0]">
+                <svg
+                  data-accordion-icon
+                  class="w-4 h-4 rotate-90 shrink-0"
+                  aria-hidden="true"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 10 6"
+                >
+                  <path
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M9 5 5 1 1 5"
+                  />
+                </svg>
+              </button>
+            </div>
+            <div class="flex item-start p-2 gap-1 rounded-lg border">
+              <div class="p-1 w-full">
+                <span class="text-base"
+                  >Fugiat pariatur minim eiusmod aute adipisicing aliqua
+                  occaecat ?</span
+                >
+              </div>
+              <button class="text-[#9095A0] flex items-center justify-end">
+                <svg
+                  data-accordion-icon
+                  class="w-4 h-4 rotate-90 shrink-0"
+                  aria-hidden="true"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 10 6"
+                >
+                  <path
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M9 5 5 1 1 5"
+                  />
+                </svg>
+              </button>
+            </div>
+          </div>
+          <div class="flex flex-col gap-6">
+            <div class="flex item-start p-2 gap-1 rounded-lg border">
+              <div class="p-1 w-full">
+                <span class="text-base"
+                  >Nostrud eiusmod exercitation duis ?</span
+                >
+              </div>
+              <button class="text-[#9095A0] flex items-center justify-end">
+                <svg
+                  data-accordion-icon
+                  class="w-4 h-4 rotate-90 shrink-0"
+                  aria-hidden="true"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 10 6"
+                >
+                  <path
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M9 5 5 1 1 5"
+                  />
+                </svg>
+              </button>
+            </div>
+            <div class="flex item-start p-2 gap-1 rounded-lg border">
+              <div class="p-1 w-full">
+                <span class="text-base"
+                  >Velit duis ipsum sint consectetur id sint Lorem minim fugiat.
+                  Velit velit veniam ullamco est adipisicing ?</span
+                >
+              </div>
+              <button class="text-[#9095A0] flex items-center justify-end">
+                <svg
+                  data-accordion-icon
+                  class="w-4 h-4 rotate-90 shrink-0"
+                  aria-hidden="true"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 10 6"
+                >
+                  <path
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M9 5 5 1 1 5"
+                  />
+                </svg>
+              </button>
+            </div>
+            <div class="flex item-start p-2 gap-1 rounded-lg border">
+              <div class="p-1 w-full">
+                <span class="text-base"
+                  >Deserunt consequat esse occaecat anim sunt quis mollit
+                  officia adipisicing incididunt ?</span
+                >
+              </div>
+              <button class="text-[#9095A0] flex items-center justify-end">
+                <svg
+                  data-accordion-icon
+                  class="w-4 h-4 rotate-90 shrink-0"
+                  aria-hidden="true"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 10 6"
+                >
+                  <path
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M9 5 5 1 1 5"
+                  />
+                </svg>
+              </button>
+            </div>
+            <div class="flex item-start p-2 gap-1 rounded-lg border">
+              <div class="p-1 w-full">
+                <span class="text-base"
+                  >Aliquip irure mollit deserunt ipsum sit sunt veniam?</span
+                >
+              </div>
+              <button class="text-[#9095A0] flex items-center justify-end">
+                <svg
+                  data-accordion-icon
+                  class="w-4 h-4 rotate-90 shrink-0"
+                  aria-hidden="true"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 10 6"
+                >
+                  <path
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M9 5 5 1 1 5"
+                  />
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </div>
@@ -276,4 +467,3 @@ const scrollToTop = () => {
   });
 };
 </script>
-
